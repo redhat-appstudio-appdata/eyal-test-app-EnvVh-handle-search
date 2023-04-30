@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-rxmw
+  namespace: eedri-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/eedri-tenant/eyal-test-app/devfile-sample-rxmw@sha256:812d8bd50f0b61718f38464fbc5b4097711eebed76dc1ea992f9f0633996e8eb
+        name: my-nodejs
+        resources: {}
+status: {}
