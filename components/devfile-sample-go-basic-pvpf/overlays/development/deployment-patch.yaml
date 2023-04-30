@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-go-basic-pvpf
+  namespace: eedri-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/eedri-tenant/eyal-test-app/devfile-sample-go-basic-pvpf@sha256:cdb75e508fd850f186cac255c926401640e81607af38a73f70d58e7e8cc19b74
+        name: my-go
+        resources: {}
+status: {}
