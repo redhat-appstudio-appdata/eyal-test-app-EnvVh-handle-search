@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-code-with-quarkus-yall
+  namespace: eedri-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/eedri-tenant/eyal-test-app/devfile-sample-code-with-quarkus-yall@sha256:8bdcb1b29a85e3487fb27ed023b616d82cb8b8c3ef7c0e63def674bcecb3ddc9
+        name: my-java-quarkus
+        resources: {}
+status: {}
