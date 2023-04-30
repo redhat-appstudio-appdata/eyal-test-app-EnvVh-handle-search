@@ -26,7 +26,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-1lxe
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-user-workloads/eedri-tenant/eyal-test-app/devfile-sample-1lxe@sha256:4c81eb5ff1cd1473d41f4f9601ab877a19e75c09cf715280d65afa947c22b58a
         name: my-nodejs
         ports:
         - containerPort: 3001
