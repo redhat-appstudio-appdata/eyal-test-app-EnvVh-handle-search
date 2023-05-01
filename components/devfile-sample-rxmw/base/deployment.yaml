@@ -26,7 +26,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-rxmw
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-user-workloads/eedri-tenant/eyal-test-app/devfile-sample-rxmw@sha256:2e8e0528a73855c0d9818df8ae2b79619631387a41e4c2bf87caf2be9af910b3
         name: my-nodejs
         ports:
         - containerPort: 3001
@@ -37,6 +37,6 @@ spec:
             cpu: 100m
             memory: 100Mi
           requests:
-            cpu: 10m
+            cpu: 11m
             memory: 50Mi
 status: {}
