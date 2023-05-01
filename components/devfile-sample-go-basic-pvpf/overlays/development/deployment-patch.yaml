@@ -13,7 +13,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/eedri-tenant/eyal-test-app/devfile-sample-go-basic-pvpf@sha256:9e5047c23b37b1a2a0044ef52c809fe397610c5f49d773a730426d68b7f99758
+      - image: quay.io/redhat-user-workloads/eedri-tenant/eyal-test-app/devfile-sample-go-basic-pvpf@sha256:8761fdaa3a52d84de82156e8919c2a54f725405cd8fbc406b5bac3c715b08870
         name: my-go
         resources: {}
 status: {}
