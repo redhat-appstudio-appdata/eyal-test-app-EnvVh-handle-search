@@ -13,7 +13,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/eedri-tenant/eyal-test-app/devfile-sample-1lxe@sha256:4c81eb5ff1cd1473d41f4f9601ab877a19e75c09cf715280d65afa947c22b58a
+      - image: quay.io/redhat-user-workloads/eedri-tenant/eyal-test-app/devfile-sample-1lxe@sha256:3ff3b80927f9fa6d033c24aa35d8637e7f96138d6ae1f1bd3008de9ad151de53
         name: my-nodejs
         resources: {}
 status: {}
