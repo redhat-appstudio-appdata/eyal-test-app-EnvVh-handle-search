@@ -13,7 +13,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/eedri-tenant/eyal-test-app/devfile-sample-java-springboot-basic-nh6e@sha256:f48d2144cad2c81e7bc103a348541bdb700c11dd71f574ba38f3e05141ea588d
+      - image: quay.io/redhat-user-workloads/eedri-tenant/eyal-test-app/devfile-sample-java-springboot-basic-nh6e@sha256:a9ef9b5e54798d427073788816e52bea46c771fb134cf4f0d3d0609ac8705ce8
         name: my-java-springboot
         resources: {}
 status: {}
