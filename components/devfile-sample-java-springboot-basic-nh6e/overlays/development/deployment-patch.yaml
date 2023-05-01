@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-java-springboot-basic-nh6e
+  namespace: eedri-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/eedri-tenant/eyal-test-app/devfile-sample-java-springboot-basic-nh6e@sha256:f48d2144cad2c81e7bc103a348541bdb700c11dd71f574ba38f3e05141ea588d
+        name: my-java-springboot
+        resources: {}
+status: {}
