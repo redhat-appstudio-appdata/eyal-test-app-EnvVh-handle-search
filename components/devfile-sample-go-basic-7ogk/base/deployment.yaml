@@ -37,6 +37,6 @@ spec:
             cpu: 100m
             memory: 100Mi
           requests:
-            cpu: 10m
+            cpu: 9m
             memory: 12Mi
 status: {}
