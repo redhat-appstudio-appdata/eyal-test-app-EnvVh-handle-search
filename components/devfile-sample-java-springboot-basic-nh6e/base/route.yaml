@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: devfile-sample-java-springboot-basic-nh6e
     app.kubernetes.io/part-of: eyal-test-app
-  name: devfile-sample-java-sprin3uhp
+  name: devfile-sample-java-sprin5xwb
   namespace: eedri-tenant
 spec:
   path: /
