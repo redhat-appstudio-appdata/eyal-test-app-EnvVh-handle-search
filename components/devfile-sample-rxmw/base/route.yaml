@@ -9,7 +9,6 @@ metadata:
     app.kubernetes.io/name: devfile-sample-rxmw
     app.kubernetes.io/part-of: eyal-test-app
   name: devfile-sample-rxmw
-  namespace: eedri-tenant
 spec:
   path: /
   port:
