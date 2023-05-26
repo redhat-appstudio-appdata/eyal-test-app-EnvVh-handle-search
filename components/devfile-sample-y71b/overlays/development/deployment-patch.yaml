@@ -3,7 +3,6 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   name: devfile-sample-y71b
-  namespace: eedri-tenant
 spec:
   replicas: 1
   selector: {}
