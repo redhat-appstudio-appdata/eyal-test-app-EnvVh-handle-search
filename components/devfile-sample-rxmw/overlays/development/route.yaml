@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: devfile-sample-rxmw
     app.kubernetes.io/part-of: eyal-test-app
-  name: devfile-sample-rxmwp1ma
+  name: devfile-sample-rxmwsxoc
 spec:
   path: /
   port:
