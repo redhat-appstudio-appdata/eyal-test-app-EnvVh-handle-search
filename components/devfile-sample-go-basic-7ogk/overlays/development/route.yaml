@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: devfile-sample-go-basic-7ogk
     app.kubernetes.io/part-of: eyal-test-app
-  name: devfile-sample-go-basic-76bvv
+  name: devfile-sample-go-basic-7c4xc
 spec:
   path: /
   port:
