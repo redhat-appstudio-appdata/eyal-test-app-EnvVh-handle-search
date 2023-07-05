@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: devfile-sample-y71b
     app.kubernetes.io/part-of: eyal-test-app
-  name: devfile-sample-y71bodeh
+  name: devfile-sample-y71bwzad
 spec:
   path: /
   port:
