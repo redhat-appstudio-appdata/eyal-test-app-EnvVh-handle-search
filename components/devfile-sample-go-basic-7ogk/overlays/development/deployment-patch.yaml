@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: devfile-sample-go-basic-7ogk
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
